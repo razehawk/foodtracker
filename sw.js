@@ -1,6 +1,8 @@
-const CACHE_NAME = 'foodtracker-v1';
+const CACHE_NAME = 'foodtracker-v2';
+
 const URLS_TO_CACHE = [
-  './Foodtracker_3.html'
+  '/foodtracker/',
+  '/foodtracker/index.html'
 ];
 
 self.addEventListener('install', (event) => {
